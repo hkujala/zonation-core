@@ -15,8 +15,8 @@
 //#define COMPACT_VMAT_FLOATP
  #warning "using compact vmat - lookup version"
 
-typedef uint16_t BFOC_size_t;  // up to 2**16 features
-// typedef uint32_t BFOC_size_t;
+// typedef uint16_t BFOC_size_t;  // up to 2**16 features
+ typedef uint32_t BFOC_size_t;  // use this for more than 2**16 features
 
 // Contains occurrence levels (abundance, probability, presence/absence, etc.) for a list of biodiversity features at a location (cell).
 // The compact version is meant for those cases where many values are -1 (or <0) - so the list is sparse
