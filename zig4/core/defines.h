@@ -5,7 +5,7 @@
 #include <vector>
 class GridMap;
 
-#define MAX_SPP_COUNT 65500
+#define MAX_SPP_COUNT 73000
 //#define _CRT_SECURE_NO_WARNINGS
 
 // Used for curves[][] and SSI_curves[][]
